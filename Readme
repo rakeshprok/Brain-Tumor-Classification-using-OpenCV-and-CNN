@@ -1,1 +1,31 @@
+# Brain Tumor Classification using CNN & OpenCV
 
+## Overview  
+This project presents an end-to-end deep learning pipeline for automated brain tumor classification using MRI images, combining computer vision (OpenCV) and Convolutional Neural Networks (CNN). The model is designed to classify brain scans into four clinically relevant categories: **glioma, meningioma, pituitary tumor, and no tumor**.
+The core idea behind this project was to move beyond traditional tabular machine learning and work with real-world medical image data, where preprocessing, feature extraction, and reliable evaluation play a critical role. Rather than focusing only on model accuracy, the project emphasizes practical medical AI considerations such as data preprocessing, class-wise performance, and interpretability.
+
+## Why This Matters  
+Brain tumor detection is a meaningful healthcare application where early and accurate classification can support faster diagnosis and better clinical decision-making. Medical images are inherently complex, noisy, and high-dimensional, making them a strong real-world use case for deep learning and computer vision techniques.  
+Through this project, I aimed to understand how AI systems can be structured to handle sensitive domains like healthcare, where balanced evaluation (precision, recall, confusion matrix) is just as important as overall accuracy.
+
+## Methodology
+The project follows a structured workflow starting from image preprocessing using **OpenCV** (resizing, grayscale conversion, denoising, and normalization), followed by **CNN-based feature extraction** and multi-class classification. The model was trained on labeled MRI images and evaluated using professional metrics including **accuracy, confusion matrix, precision, recall, and F1-score** to ensure robust performance on unseen medical data.
+
+## Technical Skills Demonstrated  
+- Python (End-to-end ML pipeline development)  
+- OpenCV (Medical image preprocessing & computer vision)  
+- TensorFlow / Keras (CNN model design and training)  
+- Computer Vision fundamentals (grayscale processing, denoising, normalization)  
+- Model Evaluation (Confusion Matrix, Precision, Recall, F1-score)  
+- Applied Machine Learning in a healthcare context  
+
+## Key Results & Impact  
+The model achieved strong performance on unseen MRI test data (**~87.75% test accuracy**) with particularly high reliability in detecting healthy and pituitary tumor cases. Beyond performance metrics, this project demonstrates a practical understanding of medical image classification, CNN architecture, and responsible evaluation in real-world AI applications.
+
+## Note to Readers  
+This README provides a high-level overview of the project for quick understanding.  
+For a comprehensive explanation of the dataset, preprocessing pipeline, CNN architecture, theoretical background, and detailed performance analysis, please refer to the **full Project Report** included in this repository.
+
+## © Copyright Notice  
+© 2026 Rakesh Kumar. All Rights Reserved.  
+This project, report, and code are original academic work. Unauthorized reproduction, reuse, or distribution without permission is strictly prohibited.
