@@ -26,6 +26,5 @@ The model achieved strong performance on unseen MRI test data (**~87.75% test ac
 This README provides a high-level overview of the project for quick understanding.  
 For a comprehensive explanation of the dataset, preprocessing pipeline, CNN architecture, theoretical background, and detailed performance analysis, please refer to the **full Project Report** included in this repository.
 
-## © Copyright Notice  
-© 2026 Rakesh Kumar. All Rights Reserved.  
+© 2025 Rakesh Kumar. All Rights Reserved.  
 This project, report, and code are original academic work. Unauthorized reproduction, reuse, or distribution without permission is strictly prohibited.
